@@ -1,0 +1,196 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a 
+{
+    text-decoration: none;
+}
+#main{
+    width:960px;
+    height:650px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid black;
+}
+#header{
+    height:150px;
+    background-color: #999;
+}
+#content{
+    min-height:450px;
+    background-color: #3ff;
+}
+#footer{
+    height:50px;
+    background-color: black;
+    color:white;
+    font-size:24px;
+    text-align: center;
+    line-height:50px;
+    
+}
+#leftlogo
+{
+    height:150px;
+    width:150px;
+    background-color: #0Ff;
+    float: left;
+    
+}
+#title{
+    height: 150px;
+    width:660px;
+    background-color: rgb(11, 39, 81);
+    float: left;
+}
+#rightlogo
+{
+    height:150px;
+    width:150px;
+    background-color: #0Ff;
+    float: left;
+}
+#leftlogo img, #rightlogo img
+{
+    width:100%;
+    height: 100%;
+}
+#title 
+{
+    text-align: center;
+}
+#title h1 
+{
+    margin: 0px;
+    padding: 0px;
+}
+#title h1 a
+{
+    margin:0px;
+    font-size:50px;
+    color:yellow;
+    margin-top: 10px;
+    text-align: center;
+}
+#title h3{
+    text-align: center;
+    margin: 0px;
+    color:white;
+    margin: 0px;
+    padding: 0px;
+
+}
+#register{
+    text-align: right;
+    padding:2px 5px;
+}
+#register a{
+    text-decoration: none;
+    color:rgb(23, 23, 103);
+    font-size: 20px;
+}
+
+#myform 
+{
+    width: 600px;
+    min-height: 250px;
+    border:2px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    font-size: 20px;
+}
+#myform label
+{
+    display: block;
+
+}
+#myform input[type="text"],#myform input[type="password"],#myform input[type="date"],#myform input[type="file"],#myform textarea,#myform select,
+{
+    width:90%;
+    margin:5px 0px ;
+    font-size: 20px;
+    border:1px solid black;
+
+}
+#btnGroup input[type="submit"],#btnGroup input[type="reset"],#btnGroup input[type="button"]
+{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px 0px;
+}
+#resmessage 
+{
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px 0px;
+    margin: 5px;
+}
+#loginInfo
+{
+    background-color: beige;
+    color:black;
+    width: 300px;
+    margin: 5px auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+#loginInfo a 
+{
+    color:brown;
+}
+#adminContainer
+{
+    width: 100%;
+    background-color: #76b5c5;
+    min-height: 500px;
+}
+#leftSide
+{
+    min-height: 500px;
+    width: 150px;
+    background-color: #333;
+    display:inline-block;
+    vertical-align: top;
+ 
+}
+#rightSide
+{
+    vertical-align: top;
+    min-height: 500px;
+    width: 804px;
+    background-color:rgb(223, 223, 216);
+   display: inline-block;
+   line-height: 30px;
+}
+#adminMenu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#adminMenu ul li
+{
+    line-height: 30px;
+    background-color: #333;
+    color: yellow;
+    text-align: center;
+}
+#adminMenu ul li a
+{
+    color: antiquewhite;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+#adminMenu ul li a:hover{
+    background-color: azure;
+    color: black;
+    padding-left: 5px;
+}
